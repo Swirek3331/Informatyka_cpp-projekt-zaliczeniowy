@@ -4,5 +4,6 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    trzyszcz();
+    return 0;
 }
