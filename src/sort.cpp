@@ -2,11 +2,8 @@
 #include <cstdlib>
 #include <vector>
 #include <time.h>
-#include <stdio.h>
 
 #include "sort.h"
-
-srand(time(NULL))
 
 void displayAnArray(std::vector<int> array)
 {
@@ -18,6 +15,8 @@ void displayAnArray(std::vector<int> array)
 
 void fillAnArray(std::vector<int> array)
 {
+	srand(time(NULL));
+	
 	for (int i = 0; i < array.size(); i++)
 	{
 		array[i] = std::rand() % 100 + 1;

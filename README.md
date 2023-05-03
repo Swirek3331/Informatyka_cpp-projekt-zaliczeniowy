@@ -11,7 +11,8 @@ Oryginalne wymagania i treœæ:
 
 ```txt
 
-Wykonaj program w którym bêd¹ zawarte poznane techniki programistyczne C++. Program ma przedstawiaæ umiejêtnoœæ pos³ugiwania siê technikami programistycznymi C++
+Wykonaj program w którym bêd¹ zawarte poznane techniki programistyczne C++.
+Program ma przedstawiaæ umiejêtnoœæ pos³ugiwania siê technikami programistycznymi C++
 
    - dane
    - strumienie
