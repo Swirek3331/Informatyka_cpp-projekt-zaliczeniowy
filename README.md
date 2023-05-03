@@ -2,6 +2,7 @@
 # Informatyka_cpp-projekt-zaliczeniowy
 
 Zadanie, które zosta³o nazwa "C++ - projekt zaliczeniowy".
+Niestety robione jest w Dev C++ czy innym CodeBlocks.
 
 Jest to zadanie z informatyki, zakres podstawowy, wiêæ proszê cudów nie oczekujcie.
 I tak wrêcz robiê za du¿o, ale to nic wybitnego.
@@ -23,7 +24,5 @@ Nale¿y oddaæ:
    - plik dokument google ze zrzutami i z wyczerpuj¹cym wyjaœnieniem wykonanego programu (dzia³anie, sk³adnia, obs³uga, itp)
 
 ```
-
-Bojê siê tylko tego, i¿ JR nie uzna mi Visual Studio, bo na jak ju¿ przysta³o na informatykê w szkole, to Code Blocks czy Dev C++.
 
 Podobnie jak inne zadania, udostêpniam go na githubie.
