@@ -85,3 +85,28 @@ void insertionSort(int array[25])
 		array[j + 1] = key;
 	}
 }
+
+/*
+ * Bogo sort.
+ * To jest ¿art, a nie algorytm.
+ */
+ 
+bool sorted(int array[25])
+{
+	int a = 25;
+	while (--a > 1)
+	{
+		if (array[n] < array[n - 1])
+			return false;
+	}
+	return true;
+}
+
+void bogoSort(int array[25])
+{
+	while(!sorted(array))
+	{
+		for (int i = 0; i < n; i++)
+			std::swap(array[i], array[std::rand() % 25]);
+	}
+}
