@@ -4,6 +4,5 @@
 
 int main()
 {
-    trzyszcz();
     return 0;
 }

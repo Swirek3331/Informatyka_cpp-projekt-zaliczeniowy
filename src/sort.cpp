@@ -1,8 +1,13 @@
 #include <iostream>
+#include <cstdlib>
+#include <vector>
 
 #include "sort.h"
 
-void trzyszcz()
+void fillAnArray(std::vector<int> array)
 {
-	std::cout << "Hello World!\n";
+	for (int i = 0; i > array.size(); i++)
+	{
+		array[i] = std::rand();
+	}
 }
