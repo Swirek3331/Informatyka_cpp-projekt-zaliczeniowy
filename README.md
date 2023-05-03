@@ -1,29 +1,32 @@
 
 # Informatyka_cpp-projekt-zaliczeniowy
 
-Zadanie, które zosta³o nazwa "C++ - projekt zaliczeniowy".
+Zadanie, ktÃ³re zostaÅ‚o nazwa "C++ - projekt zaliczeniowy".
 Niestety robione jest w Dev C++ czy innym CodeBlocks.
 
-Jest to zadanie z informatyki, zakres podstawowy, wiêæ proszê cudów nie oczekujcie.
-I tak wrêcz robiê za du¿o, ale to nic wybitnego.
+Jest to zadanie z informatyki, zakres podstawowy, wiÄ™Ä‡ proszÄ™ cudÃ³w nie oczekujcie.
+I tak wrÄ™cz robiÄ™ za duÅ¼o, ale to nic wybitnego.
 
-Oryginalne wymagania i treœæ:
+OsobiÅ›cie to **nie** jestem jak kolwiek z tego zadowolony.
+Kod jest wrÄ™cz okropny, ale wciÄ…Å¼ to jest nawet ponad to co On oczekiwaÅ‚.
+
+Oryginalne wymagania i treÅ›Ä‡:
 
 ```txt
 
-Wykonaj program w którym bêd¹ zawarte poznane techniki programistyczne C++.
-Program ma przedstawiaæ umiejêtnoœæ pos³ugiwania siê technikami programistycznymi C++
+Wykonaj program w ktÃ³rym bÄ™dÄ… zawarte poznane techniki programistyczne C++.
+Program ma przedstawiaÄ‡ umiejÄ™tnoÅ›Ä‡ posÅ‚ugiwania siÄ™ technikami programistycznymi C++
 
    - dane
    - strumienie
    - algorytmy
 
-Nale¿y oddaæ:
+NaleÅ¼y oddaÄ‡:
 
-   - plik do otworzenia w œrodowisku programistycznym
+   - plik do otworzenia w Å›rodowisku programistycznym
    - plik wykonywalny
-   - plik dokument google ze zrzutami i z wyczerpuj¹cym wyjaœnieniem wykonanego programu (dzia³anie, sk³adnia, obs³uga, itp)
+   - plik dokument google ze zrzutami i z wyczerpujÄ…cym wyjaÅ›nieniem wykonanego programu (dziaÅ‚anie, skÅ‚adnia, obsÅ‚uga, itp)
 
 ```
 
-Podobnie jak inne zadania, udostêpniam go na githubie.
+Podobnie jak inne zadania, udostÄ™pniam go na githubie.
