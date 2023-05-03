@@ -3,14 +3,12 @@
 
 #include "sort.h"
 
-using namespace std;
-
 int main()
 {	
-	vector<int> numbers;
+	int numbers[25];
 	fillAnArray(numbers);
 	
-	cout << "Grupa losowych liczb calkowitych: ";
+	std::cout << "Grupa losowych liczb calkowitych: ";
 	displayAnArray(numbers);
 	
     return 0;

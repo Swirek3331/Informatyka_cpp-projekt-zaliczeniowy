@@ -1,5 +1,5 @@
 #include <vector>
 
-void displayAnArray(std::vector<int> array);
-void fillAnArray(std::vector<int> array);
+void displayAnArray(int array[25]);
+void fillAnArray(int array[25]);
 

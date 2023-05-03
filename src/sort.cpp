@@ -5,19 +5,19 @@
 
 #include "sort.h"
 
-void displayAnArray(std::vector<int> array)
+void displayAnArray(int array[25])
 {
-	for (int i = 0; i < array.size(); i++)
+	for (int i = 0; i < 25; i++)
 	{
 		std::cout << array[i] << ", ";
 	}
 }
 
-void fillAnArray(std::vector<int> array)
+void fillAnArray(int array[25])
 {
 	srand(time(NULL));
 	
-	for (int i = 0; i < array.size(); i++)
+	for (int i = 0; i < 25; i++)
 	{
 		array[i] = std::rand() % 100 + 1;
 	}
