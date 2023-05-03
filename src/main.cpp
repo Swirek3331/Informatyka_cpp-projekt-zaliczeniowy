@@ -5,16 +5,47 @@
 
 int main()
 {	
-	int numbers[25];
+	int numbers[25], option;
+	bool running = true;
+	
 	fillAnArray(numbers);
 	
 	std::cout << "Grupa losowych liczb calkowitych: ";
 	displayAnArray(numbers);
 	
-	std::cout << "Wybierz metode do posortowania zbioru." << std::endl;
-	std::cout << "Oto mozliwe opcje: " << std::endl;
+	while (running)
+	{
+		std::cout << "Wybierz metode do posortowania zbioru." << std::endl;
+		std::cout << "Oto mozliwe opcje: " << std::endl;
+		
+		std::cout << "0 - sortowanie babelkowe" << std::endl;
+		std::cout << "1 - sortowanie selektywne"<< std::endl;
+		
+		std::cout << "Opcja: ";
+		std::cin >> option;
+		
+		switch (option)
+		{
+			case 0:
+				bubbleSort(numbers);
+				running = false;
+				std::cout << "Po sortowaniu: ";
+				displayAnArray(numbers);
+				break;
+			case 1:
+				selectSort(numbers);
+				running = false;
+				std::cout << "Po sortowaniu: ";
+				displayAnArray(numbers);
+				break;
+			default:
+				std::cout << "Nie znana opcja" << std::endl;
+				std::cout << "Wybierz jeszcze raz" << std::endl;
+				running = true;
+		}
+	}
 	
-	std::cout << "1 - sortowanie babelkowe" << std::endl;
+	
 	
     return 0;
 }
