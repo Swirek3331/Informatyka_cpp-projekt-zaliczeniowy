@@ -24,7 +24,7 @@ void fillAnArray(int array[25])
 }
 
 /*
- * Sortowanie b¹blekowe.
+ * Sortowanie b¹belkowe.
  * Przyjmujê tablcie typu ca³kowitego.
  * Wydajnoœæ: O(n^2).
  */
