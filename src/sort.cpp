@@ -89,6 +89,7 @@ void insertionSort(int array[25])
 /*
  * Bogo sort.
  * To jest ¿art, a nie algorytm.
+ * Nie pokaza³o b³êdu, mimo ¿e siê nic nie dziejê przez d³ugi czas. Czyli dzia³a.
  */
  
 bool sorted(int array[25])
@@ -96,7 +97,7 @@ bool sorted(int array[25])
 	int a = 25;
 	while (--a > 1)
 	{
-		if (array[n] < array[n - 1])
+		if (array[a] < array[a - 1])
 			return false;
 	}
 	return true;
@@ -106,7 +107,7 @@ void bogoSort(int array[25])
 {
 	while(!sorted(array))
 	{
-		for (int i = 0; i < n; i++)
+		for (int i = 0; i < 25; i++)
 			std::swap(array[i], array[std::rand() % 25]);
 	}
 }

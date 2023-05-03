@@ -5,3 +5,4 @@ void fillAnArray(int array[25]);
 void bubbleSort(int array[25]);
 void selectSort(int array[25]);
 void insertionSort(int array[25]);
+void bogoSort(int array[25]);

@@ -21,6 +21,7 @@ int main()
 		std::cout << "0 - sortowanie babelkowe" << std::endl;
 		std::cout << "1 - sortowanie selektywne"<< std::endl;
 		std::cout << "2 - sortowania przez wstawienie"<< std::endl;
+		std::cout << "3 - srotwanie karygodne - bogo sort" << std::endl;
 		
 		std::cout << "Opcja: ";
 		std::cin >> option;
@@ -41,6 +42,12 @@ int main()
 				break;
 			case 2:
 				insertionSort(numbers);
+				running = false;
+				std::cout << "Po sortowaniu: ";
+				displayAnArray(numbers);
+				break;
+			case 3:
+				bogoSort(numbers);
 				running = false;
 				std::cout << "Po sortowaniu: ";
 				displayAnArray(numbers);
