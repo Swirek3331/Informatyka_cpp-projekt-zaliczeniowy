@@ -43,3 +43,25 @@ void bubbleSort(int array[25])
 		}
 	}
 }
+
+/*
+ * Sortowanie selektywne.
+ * Przyjmujê ci¹g liczb ca³kowitych.
+ * Z³o¿onoœæ czasowa: O(n^2).
+ */
+void selectSort(int array[25])
+{
+	for (int i = 0; i < 25; i++)
+	{
+		int min = i;
+		for (int j = i + 1; j < 25; j++)
+		{
+			if (array[min] > array[j])
+				min = j;
+		}
+		
+		int temp = array[i];
+		array[i] = array[min];
+		array[min] = temp;
+	}
+}
