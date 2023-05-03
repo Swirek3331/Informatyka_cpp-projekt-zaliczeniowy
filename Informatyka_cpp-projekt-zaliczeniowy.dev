@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=4
+UnitCount=5
 
 [VersionInfo]
 Major=1
@@ -60,17 +60,8 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=main.cpp
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit3]
 FileName=README.md
+CompileCpp=1
 Folder=
 Compile=0
 Link=0
@@ -78,8 +69,18 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
+[Unit3]
+FileName=src\main.cpp
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+CompileCpp=1
+
 [Unit4]
-FileName=sort.h
+FileName=src\sort.cpp
 CompileCpp=1
 Folder=
 Compile=1
@@ -89,7 +90,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit5]
-FileName=sort.h
+FileName=src\sort.h
 CompileCpp=1
 Folder=
 Compile=1
