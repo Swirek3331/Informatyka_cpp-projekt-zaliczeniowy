@@ -1,1 +1,1 @@
-void trzyszc();
+void trzyszcz();
