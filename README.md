@@ -30,3 +30,9 @@ Należy oddać:
 ```
 
 Podobnie jak inne zadania, udostępniam go na githubie.
+
+## Dość
+
+Zrobiłem coś bardziej zaawansowanego niż na lekcjach lecz w bardzo prosty, wręcz prymitywny sposób.
+Nie jestem zbytnio zadowolony jak to wygląda.
+Jeszcze IDE, już codeblocks pewnie lepsze, a visual studio mogło by zostać nie zaakceptowane przez JR.
