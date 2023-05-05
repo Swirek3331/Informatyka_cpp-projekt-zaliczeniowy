@@ -17,10 +17,10 @@ LeftChar=1
 Order=2,3,4
 Focused=2
 [Editor_2]
-CursorCol=52
-CursorRow=24
-TopLine=18
-LeftChar=9
+CursorCol=4
+CursorRow=54
+TopLine=50
+LeftChar=1
 [Editor_3]
 CursorCol=82
 CursorRow=92

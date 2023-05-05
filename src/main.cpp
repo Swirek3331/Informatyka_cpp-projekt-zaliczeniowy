@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <cstdio>
 
 #include "sort.h"
 
@@ -59,6 +60,7 @@ int main()
 		}
 	}
 	
+	system("pause");
 	
 	
     return 0;
