@@ -16,7 +16,7 @@ int main()
 	
 	while (running)
 	{
-		std::cout << "Wybierz metode do posortowania zbioru." << std::endl;
+		std::cout << std::endl << "Wybierz metode do posortowania zbioru." << std::endl;
 		std::cout << "Oto mozliwe opcje: " << std::endl;
 		
 		std::cout << "0 - sortowanie babelkowe" << std::endl;
